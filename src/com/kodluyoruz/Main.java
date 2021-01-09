@@ -32,11 +32,11 @@ public class Main {
                 + harfler +"\n"
                 + harfVarmi);
 
-
+        //#################################################################################################
         for (int i =0 ; i<=10; i++){ //0 dan 10 a kadar olan sayıları ekrana yazdırma
             System.out.println(i);
         }
-
+        //#################################################################################################
         //array liste sonradan eleman ekleyebiliyroum ve bu yüzden kesin kayıt sayısı belli olmayanlar  için kullanılır
         ArrayList<String> meyveler = new ArrayList<>();
         meyveler.add("elma"); //elma meyveler dizisine eklendi
@@ -44,15 +44,28 @@ public class Main {
         meyveler.add("mandalina");
         System.out.println(meyveler); //eklenen meyve isimleri yazdırıldı
 
+
+
+        //#################################################################################################
         //diğer bir for kullanımıyla dizinin yazdırılması
         for (String elements : meyveler){
             System.out.println(elements);
         }
 
+
+        //#################################################################################################
         String[] meyveler2 = {"elma", "armut","erik"};//diğer bir String dizisi kullanım
+        int sayac1=0,sayac2=0;
+
         for (String elements : meyveler2){
             System.out.println(elements);
+            System.out.println("sayac: "+ sayac1++);
+            System.out.println("2.sayac: "+ ++sayac2);
+            System.out.println("---------------------");
         }
+
+
+
 
     }
 }
