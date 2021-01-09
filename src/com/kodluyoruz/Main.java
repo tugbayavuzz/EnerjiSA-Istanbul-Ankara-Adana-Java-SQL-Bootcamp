@@ -15,6 +15,15 @@ public class Main {
 
         //References Types
         //Classes, Interfaces,Arrays
-        System.out.println("Hello " + args[0] + " " + args[1]);
+        System.out.println(
+                sayi1   +"\n"
+                + sayi2 +"\n"
+                + sayi3 +"\n"
+                + sayi4 +"\n"
+                + ondalikliSayi +"\n"
+                + ondalikliSayi2 +"\n"
+                + harf +"\n"
+                + harfler +"\n"
+                + harfVarmi);
     }
 }
