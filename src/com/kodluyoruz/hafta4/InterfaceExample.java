@@ -1,4 +1,4 @@
-package com.kodluyoruz.hafta4.oop;
+package com.kodluyoruz.hafta4;
 
 //1 den fazla extends metodunu kalıtıma uygulayamıyoruz,
 // kavramları soyutlayarak birçok farklı özelliği kavramlara uygulayabiliyoruz
