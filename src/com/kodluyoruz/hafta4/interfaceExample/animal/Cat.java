@@ -1,4 +1,4 @@
-package com.kodluyoruz.hafta4.interfaceExample;
+package com.kodluyoruz.hafta4.interfaceExample.animal;
 
 public class Cat implements Animal {
 

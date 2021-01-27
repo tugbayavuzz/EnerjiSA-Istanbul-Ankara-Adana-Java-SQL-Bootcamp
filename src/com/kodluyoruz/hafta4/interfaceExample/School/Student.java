@@ -1,4 +1,7 @@
-package com.kodluyoruz.hafta4.interfaceExample;
+package com.kodluyoruz.hafta4.interfaceExample.School;
+
+import com.kodluyoruz.hafta4.interfaceExample.School.CourseMember;
+import com.kodluyoruz.hafta4.interfaceExample.School.SchoolMember;
 
 public class Student implements SchoolMember, CourseMember {
     @Override

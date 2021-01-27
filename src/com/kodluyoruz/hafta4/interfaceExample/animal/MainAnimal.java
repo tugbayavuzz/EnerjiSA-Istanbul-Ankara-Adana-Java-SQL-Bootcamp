@@ -1,4 +1,4 @@
-package com.kodluyoruz.hafta4.interfaceExample;
+package com.kodluyoruz.hafta4.interfaceExample.animal;
 
 public class MainAnimal {
     public static void main(String[] args) {
@@ -9,5 +9,8 @@ public class MainAnimal {
         object1.sleep();
         object1.sound();
         object1.run();
+
+        Dog dog = new Dog();
+        dog.run();
     }
 }

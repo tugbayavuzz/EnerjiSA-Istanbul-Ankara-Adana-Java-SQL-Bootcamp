@@ -1,6 +1,6 @@
-package com.kodluyoruz.hafta4.interfaceExample;
+package com.kodluyoruz.hafta4.interfaceExample.animal;
 
-public class Dog implements Animal, Runnable {
+public class Dog implements Animal,Runnable {
     @Override
     public void sound() {
         System.out.println("Dog sounds");
