@@ -12,6 +12,10 @@ public class DoctorMain {
         System.out.println("----------------------");
         dentist.getDentistInfo();
 
+        Doctor doctor1 = new Doctor("tugba",25,"Heart");
+        //System.out.println(doctor1.name);
+        //'name' has private access in 'com.kodluyoruz.hafta4.interfaceExample.doctor.Doctor
+        System.out.println(doctor1.getDoctorName());
 
     }
 }
