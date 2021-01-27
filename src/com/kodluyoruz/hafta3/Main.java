@@ -1,4 +1,4 @@
-package com.kodluyoruz;
+package com.kodluyoruz.hafta3;
 
 import java.util.ArrayList;
 
