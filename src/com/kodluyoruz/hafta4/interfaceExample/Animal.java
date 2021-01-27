@@ -1,4 +1,4 @@
-package com.kodluyoruz.hafta4;
+package com.kodluyoruz.hafta4.interfaceExample;
 
 abstract class Animal {
     //soyut sınıfı
