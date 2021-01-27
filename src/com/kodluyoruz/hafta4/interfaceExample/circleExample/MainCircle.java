@@ -1,7 +1,5 @@
-package com.kodluyoruz.hafta4.circleExample;
+package com.kodluyoruz.hafta4.interfaceExample.circleExample;
 
-
-import com.kodluyoruz.hafta4.circleExample.Circle;
 
 public class MainCircle {
     public static void main(String[] args) {

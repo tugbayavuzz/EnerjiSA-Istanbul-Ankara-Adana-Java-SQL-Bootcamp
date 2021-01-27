@@ -1,4 +1,4 @@
-package com.kodluyoruz.hafta4.interfaceExample.School;
+package com.kodluyoruz.hafta4.interfaceExample.school;
 
 public class Main {
 

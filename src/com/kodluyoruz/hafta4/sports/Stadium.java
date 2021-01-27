@@ -1,6 +1,7 @@
-package com.kodluyoruz.hafta4.interfaceExample.sports;
+package com.kodluyoruz.hafta4.sports;
 
 public class Stadium implements Hockey, Football {
+    private String stadiumHomeTeam;
     @Override
     public void homeTeamScored(int point) {
         System.out.println(point);
@@ -25,7 +26,7 @@ public class Stadium implements Hockey, Football {
 
     @Override
     public void setHomeTeam(String name) {
-        System.out.println(name);
+        this.stadiumHomeTeam= name;
     }
 
     @Override
@@ -33,4 +34,8 @@ public class Stadium implements Hockey, Football {
         System.out.println(name);
 
     }
+    public String getHomeTeam(){
+        return stadiumHomeTeam;
+    }
+
 }

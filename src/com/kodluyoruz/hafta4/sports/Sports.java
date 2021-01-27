@@ -1,4 +1,4 @@
-package com.kodluyoruz.hafta4.interfaceExample.sports;
+package com.kodluyoruz.hafta4.sports;
 
 public interface Sports {
     public void setHomeTeam(String name);

@@ -1,4 +1,4 @@
-package com.kodluyoruz.hafta4.interfaceExample.sports;
+package com.kodluyoruz.hafta4.sports;
 
 public interface Hockey extends Sports{
     public void overtimePeriod(int overtimePeriod);

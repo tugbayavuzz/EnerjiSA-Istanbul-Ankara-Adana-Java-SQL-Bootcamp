@@ -1,4 +1,4 @@
-package com.kodluyoruz.hafta4.circleExample;
+package com.kodluyoruz.hafta4.interfaceExample.circleExample;
 
 import static java.lang.Math.PI;
 
