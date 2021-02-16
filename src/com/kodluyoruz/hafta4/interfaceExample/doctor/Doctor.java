@@ -43,8 +43,9 @@ public class Doctor {
     public void setDoctorAge(int newDoctorAge) {
         if (newDoctorAge <= 0) {
             System.out.println("Error value");
+        } else {
+            this.age = newDoctorAge;
         }
-        this.age = newDoctorAge;
     }
 
     public String getNewBranch() {
