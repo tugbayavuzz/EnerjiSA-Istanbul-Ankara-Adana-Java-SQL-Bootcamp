@@ -4,13 +4,17 @@ public class Main {
     public static void main(String[] args) {
         // Days day = new Days();
         // özelleşmiş sınıf türü oldugu için direkt new ile nesnet üretemeyiz
-        Days day = Days.Friday;
+    //     Days day = Days.Friday;
 
-        if (day == Days.Monday) {
-            System.out.println("Bugun Pazartesidir");
-        } else if (day == Days.Friday) {
-            System.out.println("Bugun Cumadir");
-        } else
-            System.out.println("Bugun diger gunlerden biridir");
+    //     if (day == Days.Monday) {
+    //         System.out.println("Bugun Pazartesidir");
+    //     } else if (day == Days.Friday) {
+    //         System.out.println("Bugun Cumadir");
+    //     } else
+    //         System.out.println("Bugun diger gunlerden biridir");
+
+    Months month = Months.January;
+    System.out.println(month.getMonth());
+    System.out.println("Merhaba Kodluyoruz");
     }
 }
